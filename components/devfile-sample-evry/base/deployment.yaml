@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-evry
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0069-tenant/tkrw-pr712-0075-0069-app/devfile-sample-evry@sha256:6ecb3370177b213537d689cfd5d2bab5bd17652d91e293a828801389331e0bbf
         name: my-nodejs
         ports:
         - containerPort: 3001
